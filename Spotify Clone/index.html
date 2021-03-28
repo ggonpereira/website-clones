@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Música para todos - Spotify</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/35f64c5023.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./public/css/main.css" />
+    <link rel="stylesheet" href="./public/css/responsive.css" />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header id="header">
+      <nav class="nav-container">
+        <!-- .topnav -->
+        <img
+          src="./public/assets/logo.png"
+          alt="Spotify Logo"
+          class="spotify-logo"
+        />
+        <ul class="header-menu">
+          <!-- #myLinks -->
+          <li>
+            <a href="#" class="header-link">Premium</a>
+          </li>
+          <li>
+            <a href="#" class="header-link">Ajuda</a>
+          </li>
+          <li>
+            <a href="#" class="header-link">Baixar</a>
+          </li>
+          <li>
+            <a href="#" class="header-link">Inscrever-se</a>
+          </li>
+          <li>
+            <a href="#" class="header-link">Entrar</a>
+          </li>
+        </ul>
+        <a
+          href="javascript:void(0);"
+          class="hamburger-menu"
+          onclick="turnMenu()"
+        >
+          <em class="fa fa-bars"></em>
+        </a>
+      </nav>
+    </header>
+    <!-- End Header Section -->
+
+    <!-- Main Section -->
+    <section id="hero">
+      <div class="hero-container">
+        <h1>Música para todos.</h1>
+        <p>
+          Milhões de músicas à sua escolha. E nem precisa de cartão de crédito.
+        </p>
+        <button class="default-button">Obtenha o Spotify free</button>
+      </div>
+    </section>
+    <!-- End Main Section -->
+
+    <!-- Footer Section -->
+    <footer id="footer">
+      <div class="footer-container">
+        <div class="footer-content">
+          <div class="footer-logo-area">
+            <img
+              src="./public/assets/logo.png"
+              alt="Spotify Logo"
+              class="spotify-logo"
+            />
+          </div>
+          <div class="footer-utils">
+            <ul class="footer-menu">
+              <p>Empresa</p>
+              <li>
+                <a href="#" class="footer-menu-link">Sobre</a>
+              </li>
+              <li>
+                <a href="#" class="footer-menu-link">Empregos</a>
+              </li>
+              <li>
+                <a href="#" class="footer-menu-link">For the record</a>
+              </li>
+            </ul>
+            <ul class="footer-menu">
+              <p>Comunidades</p>
+              <li>
+                <a href="#" class="footer-menu-link">Para Artistas</a>
+              </li>
+              <li>
+                <a href="#" class="footer-menu-link">Desenvolvedores</a>
+              </li>
+              <li>
+                <a href="#" class="footer-menu-link">Marcas</a>
+              </li>
+              <li>
+                <a href="#" class="footer-menu-link">Investidores</a>
+              </li>
+              <li>
+                <a href="#" class="footer-menu-link">Fornecedores</a>
+              </li>
+            </ul>
+            <ul class="footer-menu">
+              <p>Links úteis</p>
+              <li>
+                <a href="#" class="footer-menu-link">Ajuda</a>
+              </li>
+              <li>
+                <a href="#" class="footer-menu-link">Player da Web</a>
+              </li>
+              <li>
+                <a href="#" class="footer-menu-link">Aplicativo móvel grátis</a>
+              </li>
+            </ul>
+            <ul class="socials">
+              <li>
+                <a href="#" class="socials-link">
+                  <em class="fab fa-instagram"></em>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="socials-link">
+                  <em class="fab fa-twitter"></em>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="socials-link">
+                  <em class="fab fa-facebook"></em>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-info">
+          <ul class="footer-info-items">
+            <li>
+              <a href="" class="footer-info-link">Legal</a>
+            </li>
+            <li>
+              <a href="" class="footer-info-link">Centro de privacidade</a>
+            </li>
+            <li>
+              <a href="" class="footer-info-link">Política de privacidade</a>
+            </li>
+            <li>
+              <a href="" class="footer-info-link">Cookies</a>
+            </li>
+            <li>
+              <a href="" class="footer-info-link">Sobre anúncios</a>
+            </li>
+          </ul>
+          <div class="additional-info">
+            <div class="supperior-area">
+              <span>Brasil</span>
+              <img
+                src="./public/assets/brazil.png"
+                alt="Bandeira do Brasil"
+                class="supperior-area-img"
+              />
+            </div>
+            <div class="inferior-area">
+              <span>© 2021 Spotify AB</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer Section -->
+    <script defer>
+      function turnMenu() {
+        const menu = document.querySelector(".header-menu");
+        const hamburguer = document.querySelector(".hamburger-menu");
+        if (menu.style.display === "flex") {
+          hamburguer.style.transform = "translateY(-50%)";
+          menu.style.display = "none";
+        } else {
+          hamburguer.style.transform = "translateY(-100%)";
+          menu.style.display = "flex";
+        }
+      }
+    </script>
+  </body>
+</html>
