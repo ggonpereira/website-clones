@@ -6,7 +6,7 @@
 
 <p align="center">Repositório onde irei adicionar projetos feitos com base em sites famosos já existentes, como forma de treinar HTML, CSS e JavaScript. 👊🏼</p>
 <p>Sites já feitos:</p>
-<a href="https://website-clones.pages.dev/">ProtonMail</a>
+<a href="https://website-clones.pages.dev/">ProtonMail</a><br>
 <a href="https://github.com/ggonpereira/website-clones/tree/main/spotify-clone">Spotify</a>
 
 ---
