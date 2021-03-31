@@ -1,9 +1,7 @@
 <h4 align="center">
-<img src="https://raw.githubusercontent.com/ggonpereira/website-clones/main/ProtonMail%20Clone/public/assets/pm-logo-white.svg?token=AMBI3NLJTGJIEPX5IC3ADOTANUQ52" width="40%" /><br>
+<img src="https://raw.githubusercontent.com/ggonpereira/website-clones/main/protonmail-clone/public/assets/pm-logo-white.svg?token=AMBI3NIVZYI56HJCD3Y3KLDANUTLE" width="40%" /><br>
  <h1 align="center">Um clone do site <a href="https://protonmail.com/pt_BR">Proton Mail</a> 🤗</h1> 
 </h4>
-
----
 
 <h2>Sobre 📝</h2>
 
@@ -14,7 +12,7 @@
 <h2>Prévia 💻📱</h2>
 
 <p align="center">
-   <img src="https://raw.githubusercontent.com/ggonpereira/website-clones/main/ProtonMail%20Clone/public/demo/protonmail_demo.jpg?token=AMBI3NPHWN2UFI52LSRJFXDANUQ34" width="90%" alt="ProtonMail Clone"/>
+   <img src="https://raw.githubusercontent.com/ggonpereira/website-clones/main/protonmail-clone/public/demo/protonmail_demo.jpg?token=AMBI3NLY7WEFY22H5WZQNNTANUTJI" width="90%" alt="ProtonMail Clone"/>
 </p>
 
 ---
