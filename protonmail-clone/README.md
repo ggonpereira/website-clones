@@ -3,8 +3,6 @@
  <h1 align="center">Um clone do site <a href="https://protonmail.com/pt_BR">Proton Mail</a> 🤗</h1> 
 </h4>
 
----
-
 <h2>Sobre 📝</h2>
 
 <p align="center">Clone feito como forma de treinar HTML, CSS, semântica, boas práticas de front-end, responsividade entre outras coisas. 👊🏼</p>
