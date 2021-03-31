@@ -1,14 +1,7 @@
 <h4 align="center">
-<img src="public/assets/pm_logo-white.svg" width="40%" /><br>
+<img src="https://raw.githubusercontent.com/ggonpereira/website-clones/main/ProtonMail%20Clone/public/assets/pm-logo-white.svg?token=AMBI3NLJTGJIEPX5IC3ADOTANUQ52" width="40%" /><br>
  <h1 align="center">Um clone do site <a href="https://protonmail.com/pt_BR">Proton Mail</a> 🤗</h1> 
 </h4>
-
-<p align="center">
-  <img alt="GitHub Language Count" src="https://img.shields.io/github/languages/count/ggonpereira/website-clones/tree/main/ProtonMail%20Clone" />
-  <img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/ggonpereira/website-clones/tree/main/ProtonMail%20Clone" />
-  <img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/ggonpereira/website-clones/tree/main/ProtonMail%20Clone" />
-  <img alt="Github Star" src="https://img.shields.io/github/stars/ggonpereira/website-clones/tree/main/ProtonMail%20Clone?style=social" />
-</p>
 
 ---
 
@@ -21,7 +14,7 @@
 <h2>Prévia 💻📱</h2>
 
 <p align="center">
-   <img src="https://github.com/ggonpereira/ggonpereira/website-clones/tree/main/ProtonMail%20Clone/public/demo/protonmail_demo.jpg" width="90%" alt="ProtonMail Clone"/>
+   <img src="https://raw.githubusercontent.com/ggonpereira/website-clones/main/ProtonMail%20Clone/public/demo/protonmail_demo.jpg?token=AMBI3NPHWN2UFI52LSRJFXDANUQ34" width="90%" alt="ProtonMail Clone"/>
 </p>
 
 ---
