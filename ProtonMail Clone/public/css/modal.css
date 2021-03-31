@@ -1,0 +1,120 @@
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: none;
+    overflow: auto;
+    background-color: #000000;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 9999;
+}
+
+.modal-window {
+    position: relative;
+    background-color: #FFFFFF;
+    width: 50%;
+    margin: 10% auto;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.modal-window.small {
+    width: 25%;
+}
+
+.modal-window-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.modal-window-top h3 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: var(--dark-gray);
+    line-height: 1.8rem;
+    padding: 0 15px 15px 0;
+}
+
+.modal-window-top span {
+    cursor: pointer;
+    font-size: 2.4rem;
+    line-height: 1.8rem;
+    color: rgba(0,0,0,0.3);
+    padding-bottom: 15px;
+    transition: color 0.3s ease;
+}
+
+.modal-window-top span:hover {
+    color: rgba(0,0,0,1);
+}
+
+.for-support {
+    margin-top: 50px;
+}
+
+.modal-window.small p {
+    font-size: 1.7rem;
+    color: var(--dark-gray);
+    line-height: 2;
+}
+
+.others {
+    margin: 25px 0;
+}
+
+.others a {
+  color: #9497ce;
+  font-size: 1.7rem;
+  text-decoration: underline;
+  transition: all 0.3s ease;
+}
+
+.others a:hover {
+  text-decoration: none;
+  color: #000;
+}
+
+.close-modal {
+    text-align: end;
+    border-top: 1px solid #e5e5d5;
+    padding: 20px 0 0 15px;
+}
+
+.close-modal button {
+    border: 1px solid #adadad;
+    padding: 7px 13px;
+    background-color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.close-modal button:hover {
+    background-color: #e6e6e6;
+}
+
+.close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: rgba(0,0,0,0.3);
+    height: 30px;
+    width: 30px;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.close:hover,
+.close:focus {
+    color: #000000;
+    cursor: pointer;
+}
+
+.open {
+    display: block;
+}

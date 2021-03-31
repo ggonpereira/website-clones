@@ -1,0 +1,366 @@
+@media (max-width: 1450px) {
+  :root {
+    --container-width: 1100px;
+  }
+
+  .hero-btn {
+    font-size: 1.8rem;
+  }
+
+  .hero-container-right img {
+    width: 550px;
+  }
+
+  #security h3 {
+    font-size: 1.8rem;
+  }
+
+  .prev, .next {
+    top: -30%;
+  }
+
+  .mySlides.fade {
+    top: 46px;
+    right: 184px;
+    width: 718px;
+  }
+}
+
+@media (max-width: 1150px) {
+  :root {
+    --container-width: 900px;
+  }
+
+  #header.nav-active .bottom-bar {
+    padding: 15px 0 30px 0;
+  }
+
+  .bottom-bar {
+    flex-direction: column;
+  }
+
+  .bottom-bar .left-area {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .bottom-bar .right-area {
+    width: 100%;
+  }
+
+  .nav-links {
+    justify-content: space-between;
+  }
+
+  .nav-link {
+    padding: 15px 5px;
+  }
+
+  .nav-links li:first-child .nav-link {
+    padding-left: 0;
+  } 
+
+  .hero-container {
+    padding-top: 230px;
+  }
+
+  .hero-title {
+    font-size: 3.6rem;
+  }
+
+  .hero-subtitle {
+    font-size: 2rem;
+  }
+
+  .hero-container-right img {
+    width: 430px;
+  }
+
+  .hero-btn {
+    padding: 20px 25px;
+  }
+
+  .prev, .next {
+    top: -38.5%;
+  }
+
+  .mySlides.fade {
+    top: 38px;
+    right: 150px;
+    width: 590px;
+  }
+
+  .journal-logo img {
+    width: auto;
+    height: 60px;
+  }
+
+  #story-content h3 {
+    font-size: 2.2rem;
+  }
+
+  .left-area h3 {
+    font-size: 2.2rem;
+  }
+}
+
+@media (max-width: 950px) {
+  :root {
+    --container-width: 700px;
+  }
+
+  .nav-button {
+    padding: 10px 5px;
+  }
+
+  .hero-container {
+    padding-top: 170px;
+  }
+
+  .hero-container-left {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hero-title {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 4.6rem;
+  }
+
+  .hero-subtitle {
+    font-size: 3rem;
+  }
+
+  .hero-btn {
+    font-size: 2.2rem;
+  }
+
+  .hero-subtitle {
+    text-align: center;
+  }
+
+  .hero-container-right {
+    display: none;
+  }
+
+  #apps .btn-transparent-bordered {
+    width: 100%;
+  }
+
+  #apps h4 {
+    margin-bottom: 10px;
+  }
+
+  #apps .btn {
+    margin: 5px 0;
+  }
+
+  .features-grid {
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+  }
+
+  .prev, .next {
+    top: -54%;
+  }
+
+  .mySlides.fade {
+    top: 29px;
+    right: 117px;
+    width: 457px;
+  }
+
+  .dots-area {
+    margin: 45px 0 40px 0;
+  }
+
+  .journal-logos {
+    grid-template: auto auto / repeat(3, auto);
+    text-align: center;
+  }
+
+  #donation-area .container {
+    flex-direction: column;
+  }
+
+  .news-container {
+    grid-template: auto / auto;
+  }
+
+  .contact-grids {
+    grid-template: auto / auto;
+    gap: 25px;
+  }
+
+  .footer-top {
+    grid-template: auto / auto;
+  }
+}
+
+@media (max-width: 750px) {
+  :root {
+    --container-width: 550px;
+  }
+
+  .top-container {
+    display: none;
+  }
+
+  .bottom-bar .left-area {
+    transform: translateY(50%);
+  }
+
+  .mobile-hamburger {
+    right: 75px;
+    top: 0;
+    transform: translateY(70%);
+  }
+
+  .mobile-hamburger.nav-active {
+    right: 75px;
+    top: 0;
+    transform: translateY(10%);
+  }
+
+  .testimonial-text {
+    max-width: 670px;
+    width: 100%;
+  }
+
+  .prev, .next {
+    top: -20%;
+  }
+
+  .mySlides.fade {
+    top: 23px;
+    right: 90px;
+    width: 361px;
+  }
+
+  .journal {
+    display: block;
+  }
+
+  .journal-logos {
+    grid-template: auto / auto;
+  }
+
+  #story-content .description {
+    flex-direction: column;
+  }
+
+  /* HAMBURGER MENU CSS */
+  #header.hamb-active {
+    -webkit-transition: all 550ms cubic-bezier(.45,1,.32,1);
+    transition: all 550ms cubic-bezier(.45,1,.32,1);
+    background-color: var(--dark-gray);
+  }
+  
+  .mobile-hamburger {
+    display: initial;
+  }
+
+  ul.nav-links {
+    display: none;
+  }
+
+  #header.hamb-active ul.nav-links {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 30px;
+  }
+  
+  #header.hamb-active .nav-link,
+  #header.hamb-active .dropdown {
+    display: inline-block;
+    padding: 5px 0!important;
+    font-size: 1.8rem;
+  }
+  
+  #header.hamb-active .dropdown-title {
+    padding: 0;
+  }
+  
+  #header.hamb-active .god-forgive-me-for-this-gambiarra {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 20px;
+    gap: 30px;
+  }
+  
+  #header.hamb-active .god-forgive-me-for-this-gambiarra .nav-button {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+  }
+  
+  #header.hamb-active .li-btn {
+    display: inline-block;
+    width: 100%;
+  }
+  
+  #header.hamb-active .hamb-select {
+    display: initial;
+    width: 100%;
+    border-top: 1px solid #e3e3e3;
+    margin-top: 25px;
+    padding-top: 20px;
+  }
+  
+  #header.hamb-active .hamb-select p {
+    font-size: 1.6rem;
+    color: #999;
+    margin-bottom: 10px;
+  }
+  
+  #header.hamb-active .hamb-select select {
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.6rem;
+    color: #999;
+  }
+}
+
+@media (max-width: 570px) {
+  :root {
+    --container-width: 400px;
+  }
+
+  .dots-area {
+    margin: 80px 0 40px 0;
+  }
+
+  .mySlides.fade {
+    top: 17px;
+    right: 68px;
+    width: 260px;
+  }
+
+  a.btn.know-more {
+    text-align: center;
+  }
+
+}
+
+@media (max-width: 450px) {
+  :root {
+    --container-width: 340px;
+  }
+
+  .dots-area {
+    margin: 140px 0 40px 0;
+  }
+
+  .mySlides.fade {
+    top: 14px;
+    right: 57px;
+    width: 222px;
+  }
+}
